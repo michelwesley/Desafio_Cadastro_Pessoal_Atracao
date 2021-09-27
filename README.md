@@ -58,10 +58,15 @@ A estilização do conteúdo foi feita utilizando folhas de estilo (CSS3) com al
 --JavaScript--
 
 --Validação do CPF
+
 O campo CPF aciona uma função assim que o usuário termina de digitar a informação solicitada. A função verifica se a informação repassada, o CPF, é válida. Caso não seja  repassada uma informação que esteja dentro dos padrões da função, é dado um alerta informando ao usuário que a informação passada não é um CPF válido clica no camposor sai do input e essa verifica se o número informado é ou não um número de CPF válido. Vale salientar que essa validação não faz referencia à situação cadastral na Receita Federal do Brasil, mas sim uma logica implementada a função
+
 --Validação do CEP
+
 O campo do CEP é uma função baseada no banco de dados do site VIACEP . Se o usuário informar um CEP incorreto, alguns campos do endereço serão preenchidos com undefined. Caso o usuário insira um número de CEP valido, serão preenchidos automaticamente os campos: endereço, bairro, cidade e estado.
+
 --Máscaras para os campos Telefone fixo e celular
+
 A cada número digito nesses campos, serão acionadas as condicionalidade para inclusão das: “ ( “, “ ) ” , “ - “.
 
 *Referências
